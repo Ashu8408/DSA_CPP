@@ -9,9 +9,9 @@ public:
     while (left < right) {
         int mid = left + (right - left) / 2;
         if (isBadVersion(mid)) {
-            right = mid; // Search in the left half
+            right = mid;
         } else {
-            left = mid + 1; // Search in the right half
+            left = mid + 1; 
         }
     }
     
