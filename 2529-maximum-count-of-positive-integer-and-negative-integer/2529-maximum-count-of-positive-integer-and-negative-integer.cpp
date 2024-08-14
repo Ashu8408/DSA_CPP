@@ -10,8 +10,6 @@ public:
                 n++;
             if(nums[i] >0)
                 p++;
-            if(nums[i]==0)
-                continue;
         }
         return max(p, n);
     }
